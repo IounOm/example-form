@@ -88,7 +88,6 @@ function App() {
       ...value,
       id: countId
     })
-    console.log('🦊\u001b[1;31mconsole.log\u001B[1;93m ~ newArr:', newArr)
     setProfileList(newArr)
     setCountId((prev) => prev += 1)
   }
