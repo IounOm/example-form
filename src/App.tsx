@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {
   Box,
-  Paper,
   Grid,
   Button,
   RadioGroup,
@@ -59,7 +58,6 @@ const initValue = {
 
 function App() {
   const [value, setValue] = useState<profileType>(initValue)
-  console.log('🦊\u001b[1;31mconsole.log\u001B[1;93m ~ value:', value)
   const [profileList, setProfileList] = useState<profileType[]>([])
   const [countId, setCountId] = useState(0)
 
